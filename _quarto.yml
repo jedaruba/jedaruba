@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "jedaruba"
+  title: "Jed Lichtensztajn"
   navbar:
     left:
       - href: index.qmd
