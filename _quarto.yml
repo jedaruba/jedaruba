@@ -4,11 +4,17 @@ project:
 
 website:
   title: "Jed Lichtensztajn"
+
   navbar:
+    pinnedd: true
+
+
+  #sub pages
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "CV"
+        href: CV/CV.qmd
 
 format:
   html:

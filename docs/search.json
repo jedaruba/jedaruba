@@ -1,16 +1,44 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "CV/CV.html",
+    "href": "CV/CV.html",
+    "title": "Jed Lichtensztajn",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Download current CV   \n     \n     \n       \n     \n     \n    ```"
+  },
+  {
+    "objectID": "oldcv.html",
+    "href": "oldcv.html",
+    "title": "Jed Lichtensztajn",
+    "section": "",
+    "text": "{​​​=html}​​​ &lt;p class=\"text-center\"&gt;   &lt;a class=\"btn btn-primary btn-lg cv-download\" href=\"`r rmarkdown::metadata$cv$pdf`\" target=\"_blank\"&gt;     &lt;i class=\"fa-solid fa-file-arrow-down\"&gt;&lt;/i&gt;&ensp;Download current CV   &lt;/a&gt; &lt;/p&gt; &lt;div class=\"embed-container\"&gt;   &lt;iframe src=\"`r rmarkdown::metadata$cv$pdf`#toolbar=0\" style=\"border: 0.5px;width: 100%;\"&gt;&lt;/iframe&gt; &lt;/div&gt; ```"
+  },
+  {
+    "objectID": "slidetest.html",
+    "href": "slidetest.html",
+    "title": "Gallery",
+    "section": "",
+    "text": "# ::: {layout-ncol=“2”}\n#![](UrbanForestry.png)\n#![](Layoutmap.jpg)\n#![](streetline.png)\n#![](PublicTrans.png)\n#![](Picture.png) :::"
+  },
+  {
+    "objectID": "slidetest.html#section",
+    "href": "slidetest.html#section",
+    "title": "Gallery",
+    "section": "",
+    "text": "# ::: {layout-ncol=“2”}\n#![](UrbanForestry.png)\n#![](Layoutmap.jpg)\n#![](streetline.png)\n#![](PublicTrans.png)\n#![](Picture.png) :::"
+  },
+  {
+    "objectID": "CV.html",
+    "href": "CV.html",
+    "title": "Jed Lichtensztajn",
+    "section": "",
+    "text": "— layout: page title: Curriculum vitae excerpt: My current CV execute:\nfreeze: true\nengine: knitr resources:\n- “CV.pdf” cv:\npdf: “CV.pdf” —\n{css echo= FALSE} .embed-container {          position: relative;          padding-bottom: 129%;          height: 0;          overflow: hidden;          max-width: 100%;  }  .embed-container iframe,  .embed-container object,  .embed-container embed {          position: absolute;          top: 0;          left: 0;          width: 100%;          height: 100%;  }\n{​​​=html}​​​ &lt;p class=\"text-center\"&gt;   &lt;a class=\"btn btn-primary btn-lg cv-download\" href=\"`r rmarkdown::metadata$cv$pdf`\" target=\"_blank\"&gt;     &lt;i class=\"fa-solid fa-file-arrow-down\"&gt;&lt;/i&gt;&ensp;Download current CV   &lt;/a&gt; &lt;/p&gt; &lt;div class=\"embed-container\"&gt;   &lt;iframe src=\"`r rmarkdown::metadata$cv$pdf`#toolbar=0\" style=\"border: 0.5px;width: 100%;\"&gt;&lt;/iframe&gt; &lt;/div&gt; ```"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "About me",
+    "title": "Jed Lichtensztajn",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n#1 + 1\n\n\n#install.packages(\"usethis\")"
+    "text": "I am a senior at Colorado State University graduating with a Bachelor’s in Ecosystem Science & Sustainability and a minor in Sustainable Water in May 2024. I am interested in studying terrestrial and aquatic ecosystems. I have experience conducting fieldwork working for the Loch Vale Watershed Long-term Ecological Research and Monitoring Program. Further working for the ROSSyndicate in conjunction with the Rocky Mountain Research Station (USFS) as a Wildfire Effects & Watershed Technician has given me experience working with sondes, collecting water samples, maintaining the weather station, and processing samples. I am passionate about conducting research in order to better understand how ecosystems function post disturbances, such as wildfires as well as other effects caused by climate change. My goal is to work with like-minded individuals and to be part of an organization conducting cutting-edge research."
   }
 ]
