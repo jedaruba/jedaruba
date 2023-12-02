@@ -2,16 +2,18 @@
 title: "Gallery"
 ---
 
-## 
 
-\# ::: {layout-ncol="2"}
 
-#\![\](UrbanForestry.png)
+::: {layout-ncol="2"}
 
-#\![\](Layoutmap.jpg)
+![](UrbanForestry.png)
 
-#\![\](streetline.png)
+![](Layoutmap.jpg)
 
-#\![\](PublicTrans.png)
+![](streetline.png)
 
-#\![\](Picture.png) :::
+![](PublicTrans.png)
+
+![](Picture.png)
+
+:::
